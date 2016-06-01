@@ -16,8 +16,8 @@ CONTRAIL_VNC_REPO=git@github.com:Juniper/contrail-vnc.git
 CONTRAIL_BRANCH=R3.0
 VERSION=3.1.0.0~2733
 
-[ ! -d build ] && mkdir build
-cd build
+[ ! -d build ] && mkdir build  
+cd build  
 if [[ "$CONTRAIL_BRANCH" == "default" ]]; then
      repo init -u $CONTRAIL_VNC_REPO
 else
