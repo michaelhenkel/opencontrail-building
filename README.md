@@ -10,7 +10,7 @@
 \#SCONSFLAGS="-j ${JOBS} -Q debug=1" dpkg-buildpackage -b -rfakeroot -k${KEY}
 
 
-KEY=7F0C32CB
+KEY=7F0C32CB    
 JOBS=32
 CONTRAIL_VNC_REPO=git@github.com:Juniper/contrail-vnc.git
 CONTRAIL_BRANCH=R3.0
